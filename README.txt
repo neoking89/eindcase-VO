@@ -1,0 +1,18 @@
+FRONTEND URL: https://localhost:4200/
+BACKEND URL: https://localhost:7116/ 
+
+endpoints:
+https://localhost:7116/api/courses
+https://localhost:7116/api/course-instances
+
+Aan de hand van deze applicatie is de gebruiker in staat om:
+ 
+cursussen te bekijken:
+De gebruiker heeft een overzicht op de site van de te geven cursussen.
+2. cursussen handmatig toe te voegen
+3. cursussen toe te voegen dmv een tekstbestand. Deze moeten voldoen aan de volgorde:
+Titel
+Cursuscode
+Duur
+Startdatum
+

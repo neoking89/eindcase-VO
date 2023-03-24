@@ -1,0 +1,16 @@
+{
+    "startDate": "2023-04-01T00:00:00Z",
+    "endDate": "2023-04-30T00:00:00Z",
+    "course": {
+        "title": "C#",
+        "duration": 10,
+        "code": "C#NETIN"
+    }
+}
+
+
+{
+  "Courseid": 1,
+  "startDate": "2023-03-22T10:57:49.942Z",
+  "endDate": "2023-03-22T10:57:49.942Z"
+}

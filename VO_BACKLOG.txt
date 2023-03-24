@@ -1,0 +1,28 @@
+BACKLOG:
+
+20-03:
+Een lijst met cursussen tonen op een website -> gerealiseerd
+Het creeeren van de entiteiten hierbij in de frontend -> deels gerealiseerd
+opzet-architectuur maken voor de frontend die leidend is voor de backend -> gerealiseerd
+
+21-03:
+Implementeer een bepektere keuze uit de cursussen een enum -> gerealiseerd
+start backend -> gerealiseerd
+minimaal werkende connectie maken met database -> gerealiseerd
+
+
+22-03:
+Implementeren van een bepektere keuze uit de cursussen dmv een enum met taal en code.
+-courses en courseinstances koppelen in backend -> niet gerealiseerd
+-koppeling backend/frontend -> niet gerealiseerd
+
+
+23-03:
+Gepost object vanuit de frontend met cursusinfo opsplitsen in een courseInstance en een course -> gerealiseerd
+Deze sturen naar de respectievelijke controllers en endpoints -> niet gerealiseerd
+Tests schrijven voor de backend -> deels gerealiseerd
+
+
+24-03:
+backend en frontend definitief goed koppelen aan elkaar -> deels gerealiseerd
+frontend en backend testen -> deels gerealiseerd

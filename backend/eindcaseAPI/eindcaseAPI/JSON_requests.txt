@@ -1,0 +1,6 @@
+course-instance POST:
+
+{
+  "startDate": "2023-03-24T09:16:17.272Z",
+  "courseId": 1
+}
