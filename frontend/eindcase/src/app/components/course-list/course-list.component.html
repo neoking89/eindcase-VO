@@ -1,0 +1,20 @@
+<form>
+  <label for="startdate">Startdatum</label>
+  <input type="date" id="startdate" name="startdate" [(ngModel)]="startDateString" required>
+
+  <label for="title">Cursus</label>
+  <select id="title" name="title" [(ngModel)]="selectedCourseType" required>
+    <option *ngFor="let type of courseTypes" [value]="type">{{ type }}</option>
+  </select>
+
+  <button (click)="addCourse(startDateString)" [disabled]="!selectedCourseType || !startDateString">
+    Voeg cursus toe
+  </button>
+
+  <div>
+    <label for="fileInput">Upload cursussen vanuit een .txt bestand:</label>
+    <input type="file" id="fileInput" #fileInput (change)="readText()">
+  </div>
+
+  <div *ngIf="errorMessage" class="error-message">{{ errorMessage }}</div>
+</form>

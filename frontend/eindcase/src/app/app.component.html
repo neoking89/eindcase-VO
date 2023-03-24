@@ -1,0 +1,23 @@
+<app-course-list
+  [courseInstances]="courseInstances"
+  (courseInstancesUpdated)="courseInstances = $event"
+></app-course-list>
+
+<table class="course-table">
+  <thead>
+    <tr>
+      <th>Start-datum </th>
+      <th>Duratie</th>
+      <th>Titel</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let courseInstance of courseInstances">
+      <td class="course-start-date">
+        {{ courseInstance.startDate | date : "yyyy-MM-dd" }}
+      </td>
+      <td class="course-duration">{{ courseInstance?.course?.duration }} dagen</td>
+      <td class="course-title">{{ courseInstance?.course?.title }}</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,33 @@
+.course-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.course-table td, .course-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.course-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #4a754c;
+  color: white;
+  font-weight: bold;
+}
+
+.course-title {
+  font-weight: bold;
+  color: #893636;
+}
+
+.course-start-date {
+  font-weight: bold;
+  color: #734848;
+}
+
+.course-duration {
+  font-weight: bold;
+  color: #734848;
+}
