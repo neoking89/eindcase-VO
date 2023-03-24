@@ -5,14 +5,8 @@ endpoints:
 https://localhost:7116/api/courses
 https://localhost:7116/api/course-instances
 
-Aan de hand van deze applicatie is de gebruiker in staat om:
- 
-cursussen te bekijken:
-1. De gebruiker heeft een overzicht op de site van de te geven cursussen.
-2. cursussen handmatig toe te voegen
-3. cursussen toe te voegen dmv een tekstbestand. Deze moeten voldoen aan de volgorde:
-Titel
-Cursuscode
-Duur
-Startdatum
-
+Met behulp van deze applicatie kan de gebruiker het volgende doen:
+1. Op de site een overzicht bekijken van de beschikbare cursussen.
+2. Handmatig nieuwe cursussen toevoegen.
+3. Cursussen toevoegen via een tekstbestand. Deze tekstbestanden moeten de volgende informatie bevatten in deze volgorde:
+Titel, Cursuscode, Duur en Startdatum.
